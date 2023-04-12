@@ -1,5 +1,7 @@
 # Rick And Morty Wiki Personajes
 
+Live application: https://ricky-morty.herokuapp.com/
+
 ## Ejecutar la aplicación
 
 Para ejecutar esta aplicación, se necesitara descargar el código fuente e instalar las dependencias y herramientas necesarias para ejecutar la aplicación. El archivo `package.json`  contiene una lista de dependencias y herramientas necesarias para ejecutar la aplicación. En este caso, se ejecuta el siguiente comando para instalar todas las dependencias: `npm install`.

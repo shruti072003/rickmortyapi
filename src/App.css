@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+body {
+  background-image: url('./assets/universe_bg.png');
+  color: white;
+}
+
+.logo {
+  height: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  background-color: #343840;
+  padding: 1rem;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #A748F0;
+  border-style: ridge;
+  
+  z-index: 1000;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background: linear-gradient(120deg, #11998e, #38ef7d, #1b7ced, #e1306c);
+
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0.95;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #F73C86;
+  border-radius: 1rem;
+  border: 0.5rem solid transparent;
+  background-position: center;
+}
